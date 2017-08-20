@@ -4,7 +4,7 @@
       <ul class='slide'>
         <li class="slide__item">
           <img class="slide__img" src="../assets/pic_2.jpg" />
-          <span class="slide__text">Kitchen Cabinet</span>
+          <span class="slide__text" style="font-size:160px;">Kitchen Cabinet</span>
         </li>
        </ul>
       </div>
@@ -33,6 +33,7 @@
         </li>
       </ul> 
    </div> 
+   <img class="liner" src="../assets/liner.jpg">
   </div>
 </template>
 
@@ -44,11 +45,45 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+@import 'https://fonts.googleapis.com/css?family=Amatic+SC:700';
+
 
 .slide {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slide__img {
   width: 100%;
   height: 600px;
   object-fit: cover;
+  display: block;
+  opacity: 0.7; 
+ }
+
+
+.slide__item {
+  position: relative;
+  background-color: #000000;
+}
+
+.slide__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: 'Amatic SC', cursive; 
+  color: #ffffff;
+  transform: translate(-50%, -50%);
+  display: flex;
+  border-width: 6px;
+  border-style: solid;
+  border-color: #ffffff;
+  padding: 50px;
+}
+
+.liner {
+  display: block; 
 }
 
 .primary-menu {
@@ -70,8 +105,9 @@ export default {
 }
 
 .menu__item {
-  font-weight: bold; 
+  font-weight: regular; 
   color: #ffffff;
+  font-size: 22px;
   margin: 1em;
 }
 
