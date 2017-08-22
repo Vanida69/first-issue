@@ -2,16 +2,19 @@
   <div id="app">
     <v-header />
     <router-view></router-view>
+    <v-footer />
   </div>
 </template>
 
 <script>
 import VHeader from './components/Header';
+import VFooter from './components/Footer';
 
 export default {
   name: 'app',
   components: {
     VHeader,
+    VFooter,
   },
 }
 </script>

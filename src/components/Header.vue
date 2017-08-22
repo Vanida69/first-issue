@@ -4,32 +4,32 @@
       <ul class='slide'>
         <li class="slide__item">
           <img class="slide__img" src="../assets/pic_2.jpg" />
-          <span class="slide__text" style="font-size:160px;">Kitchen Cabinet</span>
+          <span class="slide__text" style="font-size:110px;">KITCHEN CABINET</span>
         </li>
        </ul>
       </div>
    <div class="primary-menu">
       <ul class="menu">
         <li class="menu__item">
-          <router-link class="menu__link" to="/">Home</router-link>
+          <router-link class="menu__link" to="/">HOME</router-link>
         </li>
         <li class="menu__item">
-          <router-link class="menu__link" to="/about">About Us</router-link>
+          <router-link class="menu__link" to="/about">ABOUT US</router-link>
         </li>
         <li class="menu__item">
-          <router-link class="menu__link" to="/pages">Pages</router-link>
+          <router-link class="menu__link" to="/pages">PAGES</router-link>
         </li>
         <li class="menu__item">
-          <router-link class="menu__link" to="/addons">Addons</router-link>
+          <router-link class="menu__link" to="/addons">ADDONS</router-link>
         </li>
         <li class="menu__item">
-          <router-link class="menu__link" to="/blog">Blog</router-link>
+          <router-link class="menu__link" to="/blog">BLOG</router-link>
         </li>
         <li class="menu__item">
-          <router-link class="menu__link" to="/portfolio">Portfolio</router-link>
+          <router-link class="menu__link" to="/portfolio">PORTFOLIO</router-link>
         </li>
         <li class="menu__item">
-          <router-link class="menu__link" to="/contact">Contact</router-link>
+          <router-link class="menu__link" to="/contact">CONTACT</router-link>
         </li>
       </ul> 
    </div> 
@@ -39,14 +39,14 @@
 
 <script>
 export default {
-  name: 'template',
+  name: 'header',
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-@import 'https://fonts.googleapis.com/css?family=Amatic+SC:700';
-
+@import 'https://fonts.googleapis.com/css?family=Lekton';
+@import 'https://fonts.googleapis.com/css?family=Hind:600';
 
 .slide {
   margin: 0;
@@ -72,14 +72,14 @@ export default {
   position: absolute;
   top: 50%;
   left: 50%;
-  font-family: 'Amatic SC', cursive; 
+  font-family: 'Lekton', sans-serif;
   color: #ffffff;
   transform: translate(-50%, -50%);
   display: flex;
   border-width: 6px;
   border-style: solid;
   border-color: #ffffff;
-  padding: 50px;
+  padding: 30px;
 }
 
 .liner {
@@ -105,10 +105,11 @@ export default {
 }
 
 .menu__item {
-  font-weight: regular; 
+  font-weight: bold;
+  font-family: 'Hind', sans-serif; 
   color: #ffffff;
-  font-size: 22px;
-  margin: 1em;
+  font-size: 18px;
+  margin: 2em;
 }
 
 .menu__link {
@@ -118,7 +119,6 @@ export default {
 
 .menu__link:hover {
   color: #CC0000;
-  
 }
 
 </style>
