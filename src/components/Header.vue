@@ -3,7 +3,7 @@
     <div class="slideshow">
       <ul class='slide'>
         <li class="slide__item">
-          <img class="slide__img" src="../assets/pic_2.jpg" />
+          <img class="slide__img" src="../assets/RPS-112.jpg" />
           <span class="slide__text" style="font-size:110px;">KITCHEN CABINET</span>
         </li>
        </ul>
