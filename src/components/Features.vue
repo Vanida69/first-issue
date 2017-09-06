@@ -1,12 +1,40 @@
 <template>
   <div class="root">
-    <!-- insert your template here -->
+    <div class="main-feature">
+     <div class="feature">
+      <img class="feature__icon">
+      <group />
+      </div>
+      <h4 class="feature__caption">
+        Includes carefully crafted pre-built page Floox
+        </h4>
+      <div class="feature__desc"> 
+        layouts for your next project.
+        </div>
+      </div>
+    </div>
+
+  <div class="features">
+      y
+    </div>
   </div>
 </template>
 
 <script>
+import Creation from 'icons/creation'
+import Crown from 'icons/Crown'
+import Light from 'icons/lightbulb-on-outline'
+import Group from 'icons/group'
+
 export default {
   name: 'features',
+
+  components: {
+    Creation,
+    Crown,
+    Light,
+    Group,
+  }
 }
 </script>
 
