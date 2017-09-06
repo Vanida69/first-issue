@@ -83,7 +83,8 @@ export default {
 }
 
 .liner {
-  display: block; 
+  display: block;
+  width: 100%;  
 }
 
 .primary-menu {
