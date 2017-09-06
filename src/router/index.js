@@ -1,15 +1,20 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '@/components/Hello'
+
+function load(component) {
+  return () => System.import(`@/pages/${component}`)
+}
 
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
+
   routes: [
     {
       path: '/',
-      name: 'Hello',
-      component: Hello
+      name: 'home',
+      component: load('Home'),
     }
   ]
 })
