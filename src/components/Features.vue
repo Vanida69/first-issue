@@ -67,14 +67,15 @@ export default {
 .main-feature {
   color: #ffffff;
   font-size: 1.1em;
-  margin: 0;
-  line-height: 0.1;
+  margin: 0 auto;
+  line-height: 0;
+  padding: 1.5em 2.5em;
 }
 
 .feature {
   display: flex;
   justify-content: space-between;
-  padding: 1em 8em;
+  padding: 0.5em 20em;
 }
 
 .feature__item {
@@ -82,9 +83,8 @@ export default {
   color: #ffffff;
   font-size: 1.2em;
   margin: 0;
-  line-height: 1em;
-  padding: 1.5em 8em;
-  
+  line-height: 1.2em;
+  padding: 1.5em 5em;
 }
 
 .feature__icon {
@@ -93,5 +93,5 @@ export default {
 
 .feature__caption {}
 
-feature__desc {}
+.feature {}
 </style>
