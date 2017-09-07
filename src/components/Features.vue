@@ -1,44 +1,97 @@
 <template>
   <div class="root">
     <div class="main-feature">
-     <div class="feature">
-      <img class="feature__icon">
-      <group />
-      </div>
-      <h4 class="feature__caption">
-        Includes carefully crafted pre-built page Floox
+      <div class="feature__item">
+        <img class="feature__icon" src="../assets/icon-2.svg" />
+        <h4 class="feature__caption">
+          Includes carefully crafted pre-built page Floox
         </h4>
-      <div class="feature__desc"> 
-        layouts for your next project.
+        <div class="feature__desc">
+          Layouts for your next project.
         </div>
       </div>
     </div>
 
-  <div class="features">
-      y
+    <div class="feature">
+      <div class="feature__item">
+        <img class="feature__icon" src="../assets/icon-3.svg" />
+        <h4 class="feature__caption">
+          Brand Strategy
+        </h4>
+        <div class="feature__desc">
+          Dummy text of the printing and typesetting industry
+        </div>
+      </div>
+      <div class="feature__item">
+        <img class="feature__icon" src="../assets/icon-4.svg" />
+        <h4 class="feature__caption">
+          Creative Design
+        </h4>
+        <div class="feature__desc">
+          Dummy text of the printing and typesetting industry
+        </div>
+      </div>
+      <div class="feature__item">
+        <img class="feature__icon" src="../assets/icon-5.svg" />
+        <h4 class="feature__caption">
+          Clean Structure
+        </h4>
+        <div class="feature__desc">
+          Dummy text of the printing and typesetting industry
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import Creation from 'icons/creation'
-import Crown from 'icons/Crown'
-import Light from 'icons/lightbulb-on-outline'
-import Group from 'icons/group'
+
 
 export default {
   name: 'features',
 
-  components: {
-    Creation,
-    Crown,
-    Light,
-    Group,
-  }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.root {
+  position: relative;
+  font-weight: ragular;
+  color: #ffffff;
+  background-color: #232323;
+  margin: 0 auto;
+  text-align: center;
+}
 
+.main-feature {
+  color: #ffffff;
+  font-size: 1.1em;
+  margin: 0;
+  line-height: 0.1;
+}
+
+.feature {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 8em;
+}
+
+.feature__item {
+  justify-content: space-between;
+  color: #ffffff;
+  font-size: 1.2em;
+  margin: 0;
+  line-height: 1em;
+  padding: 1.5em 8em;
+  
+}
+
+.feature__icon {
+  justify-content: space-between;
+}
+
+.feature__caption {}
+
+feature__desc {}
 </style>
