@@ -1,8 +1,8 @@
 <template>
   <div class="root">
     <div class="main-feature">
-     <div class="feature">
-      <img class="feature__icon">
+     <div class="feature__item">
+      <div class="feature__icon">
       <group />
       </div>
       <h4 class="feature__caption">
@@ -15,7 +15,17 @@
     </div>
 
   <div class="features">
-      y
+     <div class="feature__item">
+      <div class="feature__icon">
+      <group />
+      </div>
+      <h4 class="feature__caption">
+        Includes carefully crafted pre-built page Floox
+        </h4>
+      <div class="feature__desc"> 
+        layouts for your next project.
+        </div>
+      </div>
     </div>
   </div>
 </template>
