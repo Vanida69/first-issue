@@ -85,8 +85,16 @@ export default {
   margin: 0;
   line-height: 1.2em;
   padding: 1.5em 5em;
+  
 }
 
+.feature .feature__item {
+  border-right: 2px solid #ccc;
+}
+
+.feature .feature__item:last-child {
+  border-right: none;
+}
 .feature__icon {
   justify-content: space-between;
 }

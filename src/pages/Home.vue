@@ -1,16 +1,19 @@
 <template>
   <div class="root">
     <v-features />
+    <v-home-port />
   </div>
 </template>
 
 <script>
 import VFeatures from '../components/Features'
+import VHomePort from '../components/HomePort'
 
 export default {
   name: 'home',
   components: {
-    VFeatures 
+    VFeatures, 
+    VHomePort
   }
 }
 </script>
